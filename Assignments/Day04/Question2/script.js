@@ -1,7 +1,7 @@
 //create a request object
 var request = new XMLHttpRequest();
 //open the connection
-request.open('GET','https://restcountries.eu/rest/v2/all',true);
+request.open('GET','https://restcountries.com/v2/all',true);
 //send the connection
 request.send();
 //get the required result
